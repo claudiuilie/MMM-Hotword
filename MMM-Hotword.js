@@ -10,18 +10,18 @@ Module.register("MMM-Hotword", {
         hotwords: "smartmirror", //this will be sended to other module for distinguishing which hotword is detected.
         file: "resources/models/smart_mirror.umdl",
         sensitivity: '0.5',
-      },
-      {
-        hotwords: "snowboy",
-        file: "resources/models/snowboy.umdl",
-        sensitivity: '0.5',
-      },
-      {
-        file: 'resources/models/jarvis.umdl',
-        sensitivity: '0.8,0.80',
-        hotwords: ['jarvis','jarvis'] //Kitt.ai changed their Jarvis UMDL, it has 2 models in one file. So weird.
-        //anyway, you can give different name for each. ['jarvis_1', 'jarvis_2']. Even though I think this is useless.
       }
+      // {
+      //   hotwords: "snowboy",
+      //   file: "resources/models/snowboy.umdl",
+      //   sensitivity: '0.5',
+      // },
+      // {
+      //   file: 'resources/models/jarvis.umdl',
+      //   sensitivity: '0.8,0.80',
+      //   hotwords: ['jarvis','jarvis'] //Kitt.ai changed their Jarvis UMDL, it has 2 models in one file. So weird.
+      //   //anyway, you can give different name for each. ['jarvis_1', 'jarvis_2']. Even though I think this is useless.
+      // }
     ],
     record: {
       sampleRate    : 16000,      // audio sample rate
